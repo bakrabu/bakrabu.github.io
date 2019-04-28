@@ -1,0 +1,79 @@
+html{
+  scroll-behavior: smooth;
+}
+header{
+  width: 100%;
+  height: 750px;
+  background: url('../img/header bg.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  background: linear-gradient(45deg,rgb(255, 172, 147), rgb(255, 179, 208), rgb(184, 236, 255) , rgb(182, 255, 238),rgb(255, 238, 140), rgb(255, 191, 175));
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
+.navbar-brand img{
+  width: 150px;
+}
+header h1{
+  font-family: 'PT Sans';
+  font-weight: bold;
+  color: rgb(245, 245, 245);
+}
+section{
+  height: 650px;
+  width: 100%;
+  margin-top: 50px;
+}
+section .col-xl-5{
+  z-index: 1000000;
+}
+section h1{
+  color: #000;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+section p{
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+}
+section h3{
+  font-size: 25px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  font-style: italic;
+}
+.carousel-indicators li{
+  border-radius: 50%;
+  height: 20px !important;
+  width: 20px !important;
+}
+footer{
+
+  height: 250px;
+  background: #222;
+}
+footer h1{
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 25px;
+  align-self: center;
+}
+footer img{
+  width: 50px;
+  position: absolute;
+  margin-top: 50px;
+  height: 50px;
+}

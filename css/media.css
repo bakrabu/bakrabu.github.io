@@ -1,0 +1,41 @@
+@media (min-width: 575.98px) {
+  section{
+    margin-top: 200px !important;
+  }
+}
+@media (max-width: 767.98px){
+  .ferrari{
+    margin-top: 350px;
+  }
+  section{
+    margin-top: 340px !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .lambo{
+    margin-top: 50px !important;
+  }
+
+footer{
+  margin-top: 180px;
+}
+ section h3{
+   margin-top: 50px;
+   align-self: center !important;
+   font-size: 31px !important;
+   text-align: center !important;
+ }
+ section p{
+   font-weight: bold;
+   font-size: 19px;
+   text-align: center !important;
+   margin-top: 25px;
+   margin-bottom: 25px;
+ }
+
+}
+@media (max-width: 1199.98px) {
+  section{
+    margin-top: 50 !important;
+  }
+}
